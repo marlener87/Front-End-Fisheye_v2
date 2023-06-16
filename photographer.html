@@ -11,11 +11,35 @@
     <header>
       <img src="assets/images/logo.png" class="logo" />
     </header>
+
+    <!-- EN-TETE -->
     <main id="main">
       <div class="photograph-header">
+        <div class="contact">
+          <h1 class="photographer-name"></h1>
+          <h2 class="photographer-localisation"></h2>
+          <p class="photographer-tagline"></p>
+        </div>
+        
         <button class="contact_button" onclick="displayModal()">Contactez-moi</button>
+
+        <div class="picture">
+          <img src="assets/photographers/account.png" alt="" class="photographer-image">
+        </div>
       </div>
     </main>
+
+    <div class="classement">
+      <p>Trier par</p>
+    </div>
+    
+
+    <!-- GALERIE PHOTOS -->
+    <div class="galerie_photos">
+      <img src="assets/photographers/account.png" alt="" class="galerie_photo">
+    </div>
+
+    <!-- DEBUT MODAL -->
     <div id="contact_modal">
 			<div class="modal">
 				<header>
@@ -31,6 +55,8 @@
 				</form>
 			</div>
 		</div>
+    <!-- FIN MODAL -->
+
     <script src="/scripts/pages/photographer.js"></script>
     <script src="/scripts/utils/contactForm.js"></script>
   </body>
